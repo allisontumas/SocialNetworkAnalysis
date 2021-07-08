@@ -1,0 +1,29 @@
+ec_campaigns:
+  badger:
+    columns:
+    - contentid
+    - content
+    - authoreddate
+    - language
+    - permalink
+    - platform
+    - author
+    - doc_type
+    - parentid
+    - num_followers
+    - num_posts
+    - project
+    projects:
+      BADGER_A:
+        key: ec/projects/badger/BADGER_A/
+        query: 'meta.rule_matcher.results.project_id: 497D1D35-F415-51C7-348D-D30EA13F1A58'
+      BADGER_BOTS:
+        key: ec/projects/badger/BADGER_BOTS/
+        query: 'meta.rule_matcher.results.project_id: 80D60CD9-C48E-6823-9CC8-677C1E0B1DBD'
+      BADGER_G:
+        key: ec/projects/badger/BADGER_G/
+        query: 'meta.rule_matcher.results.project_id: 0FC729A0-6C3E-2E7D-F23A-657C473DA2AF'
+      BADGER_R:
+        key: ec/projects/badger/BADGER_R/
+        query: 'meta.rule_matcher.results.project_id: 6B2206AB-E35A-7035-FCA4-B5481332E4BF'
+    save_bucket: ec-data-raw-486301947373

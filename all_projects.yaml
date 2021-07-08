@@ -1,0 +1,344 @@
+ac_campaigns:
+  poc:
+    columns:
+    - contentid
+    - content
+    - authoreddate
+    - language
+    - permalink
+    - platform
+    - author
+    - doc_type
+    - parentid
+    - num_followers
+    - num_posts
+    - project
+    projects:
+      poc_init:
+        key: ac/pulse_campaigns/poc/poc_init/
+        query: 'meta.rule_matcher.results.project_id: 92B633A0-E224-A94F-A043-22FFAE7B7E1B'
+    save_bucket: ac-data-raw-486301947373
+ccmd_operator_pulls:
+  ec:
+    columns:
+    - contentid
+    - content
+    - authoreddate
+    - permalink
+    - platform
+    - author
+    - language
+    - doc_type
+    - parentid
+    - num_followers
+    - num_posts
+    projects:
+      ec:
+        key: ec/pulse/
+        query: 'meta.rule_matcher.results.project_id: 4AE14040-777B-747B-02A5-90B46971A832'
+    save_bucket: ec-data-raw-486301947373
+  jw:
+    columns:
+    - contentid
+    - content
+    - authoreddate
+    - permalink
+    - platform
+    - author
+    - language
+    - doc_type
+    - parentid
+    - num_followers
+    - num_posts
+    projects:
+      jw:
+        key: jw/pulse/
+        query: 'meta.rule_matcher.results.project_id: 979173F8-A8E8-702A-1DEA-2A8CCB8830BE'
+    save_bucket: jw-data-raw-486301947373
+  sc:
+    columns:
+    - contentid
+    - content
+    - authoreddate
+    - permalink
+    - platform
+    - author
+    - language
+    - doc_type
+    - parentid
+    - num_followers
+    - num_posts
+    projects:
+      sc:
+        key: sc/pulse/
+        query: 'meta.rule_matcher.results.project_id: A2686E30-5EA1-DFB2-FA12-7CBC917352E1'
+    save_bucket: sc-data-raw-486301947373
+core_campaigns:
+  es:
+    columns:
+    - contentid
+    - content
+    - authoreddate
+    - language
+    - permalink
+    - platform
+    - author
+    - doc_type
+    - parentid
+    - num_followers
+    - num_posts
+    - date_pulled
+    - project
+    projects:
+      es_ar:
+        key: core/conops/es/es_ar/
+        query: 'meta.rule_matcher.results.project_id: 5F3AEAEC-30A9-9D6C-24E9-380BB33A4D1D'
+      es_ch:
+        key: core/conops/es/es_ch/
+        query: 'meta.rule_matcher.results.project_id: EF1073FE-4AC3-2F74-7459-8E729E0A996D'
+      es_ru:
+        key: core/conops/es/es_ru/
+        query: 'meta.rule_matcher.results.project_id: 1C8EA03D-6775-5E3E-2057-E2E46B6A6759'
+    save_bucket: core-data-raw-486301947373
+  iuu_fishing:
+    columns:
+    - contentid
+    - content
+    - authoreddate
+    - language
+    - permalink
+    - platform
+    - author
+    - doc_type
+    - parentid
+    - num_followers
+    - num_posts
+    - project
+    projects:
+      ch_in_ec:
+        key: core/conops/iuu_fishing/ch_in_ec/
+        query: 'meta.rule_matcher.results.project_id: A82EC5FB-D24D-0F21-21C0-681E8CD718BD'
+    save_bucket: core-data-raw-486301947373
+ec_campaigns:
+  badger:
+    columns:
+    - contentid
+    - content
+    - authoreddate
+    - language
+    - permalink
+    - platform
+    - author
+    - doc_type
+    - parentid
+    - num_followers
+    - num_posts
+    - project
+    projects:
+      BADGER_A:
+        key: ec/projects/badger/BADGER_A/
+        query: 'meta.rule_matcher.results.project_id: 497D1D35-F415-51C7-348D-D30EA13F1A58'
+      BADGER_BOTS:
+        key: ec/projects/badger/BADGER_BOTS/
+        query: 'meta.rule_matcher.results.project_id: 80D60CD9-C48E-6823-9CC8-677C1E0B1DBD'
+      BADGER_G:
+        key: ec/projects/badger/BADGER_G/
+        query: 'meta.rule_matcher.results.project_id: 0FC729A0-6C3E-2E7D-F23A-657C473DA2AF'
+      BADGER_R:
+        key: ec/projects/badger/BADGER_R/
+        query: 'meta.rule_matcher.results.project_id: 6B2206AB-E35A-7035-FCA4-B5481332E4BF'
+    save_bucket: ec-data-raw-486301947373
+  cyprus:
+    columns:
+    - contentid
+    - content
+    - authoreddate
+    - language
+    - permalink
+    - platform
+    - author
+    - doc_type
+    - parentid
+    - num_followers
+    - num_posts
+    - project
+    projects:
+      EU_CYP_A:
+        key: ec/projects/cyprus/EU_CYP_A/
+        query: 'meta.rule_matcher.results.project_id: B3822E12-232E-6970-949F-49CD25A1082E'
+      EU_CYP_G:
+        key: ec/projects/cyprus/EU_CYP_G/
+        query: 'meta.rule_matcher.results.project_id: BD77975C-68CC-B4D0-5226-B939478884D1'
+      EU_CYP_R:
+        key: ec/projects/cyprus/EU_CYP_R/
+        query: 'meta.rule_matcher.results.project_id: F9C537C3-0E9F-7305-DDB3-2925FB89906D'
+    save_bucket: ec-data-raw-486301947373
+  kosovo:
+    columns:
+    - contentid
+    - content
+    - authoreddate
+    - language
+    - permalink
+    - platform
+    - author
+    - doc_type
+    - parentid
+    - num_followers
+    - num_posts
+    - project
+    projects:
+      EU_KV_A:
+        key: ec/projects/kosovo/EU_KV_A/
+        query: 'meta.rule_matcher.results.project_id: D0AAD299-4E40-6026-4A7D-653E3C54E991'
+      EU_KV_G:
+        key: ec/projects/kosovo/EU_KV_G/
+        query: 'meta.rule_matcher.results.project_id: 42C150AB-7C8F-B5C5-079D-F1DA51600FCC'
+      EU_KV_R:
+        key: ec/projects/kosovo/EU_KV_R/
+        query: 'meta.rule_matcher.results.project_id: 63E70175-44BF-4F54-8143-DAA03F13C52D'
+    save_bucket: ec-data-raw-486301947373
+  moldova:
+    columns:
+    - contentid
+    - content
+    - authoreddate
+    - language
+    - permalink
+    - platform
+    - author
+    - doc_type
+    - parentid
+    - num_followers
+    - num_posts
+    - project
+    projects:
+      EU_MD_A:
+        key: ec/projects/moldova/EU_MD_A/
+        query: 'meta.rule_matcher.results.project_id: 883481B0-3B17-08BD-6BB7-64F153A3FD01'
+      EU_MD_G:
+        key: ec/projects/moldova/EU_MD_G/
+        query: 'meta.rule_matcher.results.project_id: E36ECA11-EE73-90FE-1A30-2A89FBA661CE'
+      EU_MD_R:
+        key: ec/projects/moldova/EU_MD_R/
+        query: 'meta.rule_matcher.results.project_id: 85A11836-7C2A-2D3D-3C9B-0A765C5B1967'
+    save_bucket: ec-data-raw-486301947373
+  montenegro:
+    columns:
+    - contentid
+    - content
+    - authoreddate
+    - language
+    - permalink
+    - platform
+    - author
+    - doc_type
+    - parentid
+    - num_followers
+    - num_posts
+    - project
+    projects:
+      EU_ME_A:
+        key: ec/projects/montenegro/EU_ME_A/
+        query: 'meta.rule_matcher.results.project_id: C24EE6F0-FC91-999F-2CAD-20035607E4A5'
+      EU_ME_G:
+        key: ec/projects/montenegro/EU_ME_G/
+        query: 'meta.rule_matcher.results.project_id: 7A267D70-E92E-D8F0-323E-B6F7ED163EF2'
+      EU_ME_R:
+        key: ec/projects/montenegro/EU_ME_R/
+        query: 'meta.rule_matcher.results.project_id: E0A65712-1BD1-AFAC-83B7-2246E4D4B4AA'
+    save_bucket: ec-data-raw-486301947373
+  poland:
+    columns:
+    - contentid
+    - content
+    - authoreddate
+    - language
+    - permalink
+    - platform
+    - author
+    - doc_type
+    - parentid
+    - num_followers
+    - num_posts
+    - project
+    projects:
+      Boycott_MAR20:
+        key: ec/projects/poland/Boycott_MAR20/
+        query: 'meta.rule_matcher.results.project_id: 15161813-F65C-2694-AF77-1F324652BACE'
+    save_bucket: ec-data-raw-486301947373
+  ukraine:
+    columns:
+    - contentid
+    - content
+    - authoreddate
+    - language
+    - permalink
+    - platform
+    - author
+    - doc_type
+    - parentid
+    - num_followers
+    - num_posts
+    - project
+    projects:
+      EU_UKR_A:
+        key: ec/projects/ukraine/EU_UKR_A/
+        query: 'meta.rule_matcher.results.project_id: 784987A6-0E29-6BDB-CEC2-4E3D5768C4E8'
+      EU_UKR_G:
+        key: ec/projects/ukraine/EU_UKR_G/
+        query: 'meta.rule_matcher.results.project_id: AA62FE3E-2423-DB64-270C-9AE5B84351F8'
+      EU_UKR_R:
+        key: ec/projects/ukraine/EU_UKR_R/
+        query: 'meta.rule_matcher.results.project_id: B8280824-2AF0-733D-950C-C2F4A5867D19'
+      EU_UKR_R_Comments:
+        key: ec/projects/ukraine/EU_UKR_R_Comments/
+        query: 'meta.rule_matcher.results.project_id: 9053764D-29D8-8A32-A79C-4D1C984D4C96'
+      Purple:
+        key: ec/projects/ukraine/Purple/
+        query: 'meta.rule_matcher.results.project_id: A8841C4A-E312-143B-8F54-7B12157ECD74'
+      target:
+        key: ec/projects/ukraine/target/
+        pulse_proj: S_o_G
+        query: 'meta.rule_matcher.results.project_id: 4EEA7010-8540-D445-4DC5-D0AA35452A3D'
+    save_bucket: ec-data-raw-486301947373
+sc_campaigns:
+  geo_baseline:
+    columns:
+    - contentid
+    - content
+    - authoreddate
+    - language
+    - permalink
+    - platform
+    - author
+    - doc_type
+    - parentid
+    - num_followers
+    - num_posts
+    - project
+    projects:
+      geo_baseline:
+        key: sc/campaigns/geo_baseline/geo_baseline/
+        query: 'meta.rule_matcher.results.project_id: B4F2D84B-FE1E-0A21-9B8B-D11CC0F7ACBA'
+    save_bucket: sc-data-raw-486301947373
+scp_campaigns:
+  jw_scp_account_activity:
+    columns:
+    - contentid
+    - content
+    - authoreddate
+    - language
+    - permalink
+    - platform
+    - author
+    - doc_type
+    - parentid
+    - num_followers
+    - num_posts
+    - project
+    projects:
+      scp_account_activity:
+        key: jw/scp/scp_account_activity/
+        query: 'meta.rule_matcher.results.project_id: 77C77D3B-8AB7-E5E7-67F2-1895068AE1F3'
+    save_bucket: jw-data-raw-486301947373
